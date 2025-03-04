@@ -1,0 +1,6 @@
+// Used to iterate over iterable objects like arrays, strings, or sets.
+
+let fruits = ['apple', 'banana', 'cherry'];
+for (let fruit of fruits) {
+    console.log(fruit); // Prints each fruit
+}
