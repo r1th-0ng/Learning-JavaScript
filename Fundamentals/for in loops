@@ -1,0 +1,6 @@
+// Used to iterate over the properties of an object.
+
+let user = {name: 'Alice', age: 25};
+for (let key in user) {
+    console.log(`${key}: ${user[key]}`); // Prints "name: Alice" and "age:25"
+}
