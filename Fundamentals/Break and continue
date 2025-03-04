@@ -1,0 +1,5 @@
+// Used to control loop execution.
+
+for (let i = 0; i < 5; i++) {
+    if (i === 3) break;
+    console.log(i); // Stops printing when i is 3
