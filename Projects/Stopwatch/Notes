@@ -1,0 +1,24 @@
+index.html
+A display area to show elapsed time
+Start, Pause, and Reset buttons
+
+syle.css
+Center the stopwatch
+Make the timer large and readable
+Style the buttons differently for easy identification
+
+script.js
+Formatting time correctly
+
+Converts milliseconds to minutes, seconds, and milliseconds.
+Ensures two-digit formatting using .padStart(2, '0').
+Starting the stopwatch
+
+Uses setInterval() to update the display every 10ms.
+Calculates elapsed time using Date.now().
+Pausing the stopwatch
+
+Stops the interval using clearInterval().
+Resetting the stopwatch
+
+Resets elapsed time and clears the display.
