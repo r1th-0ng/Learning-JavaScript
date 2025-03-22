@@ -1,0 +1,16 @@
+const firstName = "Rith";
+const favoriteColor = "Purple 💜";
+
+let currentLocation = "New York 🗽";
+let mood = "Happy";
+
+console.log("My Profile: ");
+console.log(firstName);
+console.log(favoriteColor);
+console.log(currentLocation);
+console.log(mood);
+
+currentLocation = "Boston 🌬️";
+mood = "Thrilled";
+console.log(currentLocation);
+console.log(mood);
