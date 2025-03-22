@@ -1,0 +1,11 @@
+// Data types
+
+const companyName = "TofuWaffey, Inc.";
+const foundingYear = 2023;
+let isActive = true;
+let fundingAmount = undefined;
+
+console.log(companyName);
+console.log(foundingYear);
+console.log(isActive);
+console.log(fundingAmount);
