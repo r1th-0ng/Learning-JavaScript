@@ -1,0 +1,8 @@
+// BMI 🏋️‍♀️
+
+let weight = 205;
+let height = 5.10;
+
+let bmi = weight / (height**2);
+
+console.log(bmi);
